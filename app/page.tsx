@@ -500,8 +500,9 @@ export default function Home() {
                   </div>
                   <div className="contact-form">
                     <div id="form-messages" className="error"></div>
-                    <form className="tmp-dynamic-form" id="contact-form" method="POST" action="/" data-netlify="true" name="contact">
+                    <form className="tmp-dynamic-form" id="contact-form" method="POST" action="/" data-netlify="true" data-netlify-honeypot="bot-field" name="contact">
                       <input type="hidden" name="form-name" value="contact" />
+                      <input type="hidden" name="bot-field" style={{display:'none'}} />
                       <div className="contact-form-wrapper row">
                         <div className="col-lg-6">
                           <div className="form-group">
