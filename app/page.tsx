@@ -38,8 +38,8 @@ export default function Home() {
                 <div className="tmp-header-right">
                   <div className="social-share-wrapper d-none d-md-block">
                     <div className="social-link">
-                      
-                      
+
+
                       <a href="wa.me/923285765363"><i className="fa-brands fa-whatsapp"></i></a>
                       <a href="https://www.linkedin.com/in/tabeen-haider/"><i className="fa-brands fa-linkedin-in"></i></a>
                       <a href="https://www.facebook.com/profile.php?id=100083396250503"><i className="fa-brands fa-facebook-f"></i></a>
@@ -64,8 +64,8 @@ export default function Home() {
             <div className="header-top">
               <div className="logo">
                 <a href="/" className="logo-area">
-                  <img className="logo-dark" src="/assets/images/logo/white-logo-reeni.png" alt="logo" />
-                  <img className="logo-white" src="/assets/images/logo/white-logo-reeni.png" alt="logo" />
+                  <img className="logo-dark" src="/assets/images/logo/white-logo.png" alt="logo" />
+                  <img className="logo-white" src="/assets/images/logo/white-logo.png" alt="logo" />
                 </a>
               </div>
               <div className="close-menu">
@@ -84,12 +84,13 @@ export default function Home() {
               <li><a className="smoth-animation" href="#contacts">Contact</a></li>
             </ul>
             <div className="social-wrapper mt--40">
-              <span className="subtitle">find with me</span>
+              <span className="subtitle">find me</span>
               <div className="social-link">
-                <a href="#"><i className="fa-brands fa-instagram"></i></a>
+
+                <a href="wa.me/923285765363"><i className="fa-brands fa-whatsapp"></i></a>
                 <a href="https://www.linkedin.com/in/tabeen-haider/"><i className="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+
+                <a href="https://www.facebook.com/profile.php?id=100083396250503"><i className="fa-brands fa-facebook-f"></i></a>
               </div>
             </div>
           </div>
@@ -109,18 +110,18 @@ export default function Home() {
                   A <TypewriterText />.
                 </h2>
                 <p className="banner-para">I craft exceptional digital experiences with modern technologies, building scalable applications from concept to deployment.</p>
-               <div className="about-btn mt--40 tmp-scroll-trigger tmp-fade-in animation-order-6">
-                      <a className="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon" href="#portfolio">
-                        <div className="icon-reverse-wrapper">
-                          <span className="btn-text">View Portfolio</span>
-                          <div className="btn-hack"></div>
-                          <img src="/assets/images/button/btg-bg.svg" alt="" className="btn-bg" />
-                          <img src="/assets/images/button/btg-bg-2.svg" alt="" className="btn-bg-hover" />
-                          <span className="btn-icon"><i className="fa-regular fa-arrow-right"></i></span>
-                          <span className="btn-icon"><i className="fa-regular fa-arrow-right"></i></span>
-                        </div>
-                      </a>
+                <div className="about-btn mt--40 tmp-scroll-trigger tmp-fade-in animation-order-6">
+                  <a className="tmp-btn hover-icon-reverse btn-border tmp-modern-button radius-round download-icon" href="#portfolio">
+                    <div className="icon-reverse-wrapper">
+                      <span className="btn-text">View Portfolio</span>
+                      <div className="btn-hack"></div>
+                      <img src="/assets/images/button/btg-bg.svg" alt="" className="btn-bg" />
+                      <img src="/assets/images/button/btg-bg-2.svg" alt="" className="btn-bg-hover" />
+                      <span className="btn-icon"><i className="fa-regular fa-arrow-right"></i></span>
+                      <span className="btn-icon"><i className="fa-regular fa-arrow-right"></i></span>
                     </div>
+                  </a>
+                </div>
               </div>
             </div>
             {/* Right: person + designation */}
@@ -185,7 +186,7 @@ export default function Home() {
             {/* Right: info */}
             <div className="col-lg-7 col-md-12">
               <div className="about-info-wrap">
-                <h2 className="about-greeting" style={{marginBottom:"18px"}}>Hey! I&apos;m <span className="about-name-highlight">Tabeen Haider</span></h2>
+                <h2 className="about-greeting" style={{ marginBottom: "18px" }}>Hey! I&apos;m <span className="about-name-highlight">Tabeen Haider</span></h2>
                 <p className="about-bio">I&apos;m Tabeen Haider, a Web developer and Computer Science student with 4+ years of experience. I specialize in building clean, responsive, and dynamic websites using HTML, CSS, JavaScript, React, NextJs, PostgreSQL, Prisma and MongoDB.</p>
                 <p className="about-bio">I&apos;m always leveling up my skills and currently diving deeper into backend and DevOps. Whether it&apos;s full-time or freelance, I&apos;m open to exciting opportunities where I can grow and build great stuff with amazing people.</p>
                 <h4 className="about-sub-heading">What I Do</h4>
@@ -221,7 +222,7 @@ export default function Home() {
         <div className="container">
           <div className="about-us-section-card row g-5 animation-action-2">
             <div className="col-lg-6 col-md-6 col-sm-6 col-12 paralax-image">
-              <div className="about-us-card tmp-scroll-trigger tmponhover single-animation active tmp-fade-in animation-order-4" style={cv({'--x': '153px', '--y': '11px'})}>
+              <div className="about-us-card tmp-scroll-trigger tmponhover single-animation active tmp-fade-in animation-order-4" style={cv({ '--x': '153px', '--y': '11px' })}>
                 <div className="card-head">
                   <div className="logo-img"><i className="fa-brands fa-wordpress"></i></div>
                   <h3 className="card-title">Custom WordPress Solutions</h3>
@@ -231,7 +232,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-6 col-12 paralax-image">
-              <div className="about-us-card tmp-scroll-trigger tmponhover single-animation tmp-fade-in animation-order-5" style={cv({'--x': '193px', '--y': '152px'})}>
+              <div className="about-us-card tmp-scroll-trigger tmponhover single-animation tmp-fade-in animation-order-5" style={cv({ '--x': '193px', '--y': '152px' })}>
                 <div className="card-head">
                   <div className="logo-img"><i className="fa-regular fa-layer-group"></i></div>
                   <h3 className="card-title">Enterprise Portals &amp; Next.js</h3>
@@ -241,7 +242,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-6 col-12 paralax-image">
-              <div className="about-us-card tmp-scroll-trigger tmponhover single-animation tmp-fade-in animation-order-4" style={cv({'--x': '339px', '--y': '-1px'})}>
+              <div className="about-us-card tmp-scroll-trigger tmponhover single-animation tmp-fade-in animation-order-4" style={cv({ '--x': '339px', '--y': '-1px' })}>
                 <div className="card-head">
                   <div className="logo-img"><i className="fa-regular fa-cubes"></i></div>
                   <h3 className="card-title">SaaS Product Engineering</h3>
@@ -251,7 +252,7 @@ export default function Home() {
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-6 col-12 paralax-image">
-              <div className="about-us-card tmp-scroll-trigger tmponhover single-animation tmp-fade-in animation-order-5" style={cv({'--x': '15px', '--y': '61px'})}>
+              <div className="about-us-card tmp-scroll-trigger tmponhover single-animation tmp-fade-in animation-order-5" style={cv({ '--x': '15px', '--y': '61px' })}>
                 <div className="card-head">
                   <div className="logo-img"><i className="fa-regular fa-microchip-ai"></i></div>
                   <h3 className="card-title">AI-Integrated Web Applications</h3>
@@ -313,62 +314,62 @@ export default function Home() {
             {
               dir: 'left',
               skills: [
-                { icon: 'fa-brands fa-wordpress',  label: 'WordPress',     color: '#21759B' },
-                { icon: 'fa-brands fa-html5',       label: 'HTML5',         color: '#E34F26' },
-                { icon: 'fa-brands fa-css3-alt',    label: 'CSS3',          color: '#1572B6' },
-                { icon: 'fa-brands fa-js',          label: 'JavaScript',    color: '#F7DF1E' },
-                { icon: 'fa-solid fa-code',         label: 'TypeScript',    color: '#3178C6' },
-                { icon: 'fa-brands fa-react',       label: 'React',         color: '#61DAFB' },
-                { icon: 'fa-solid fa-layer-group',  label: 'Next.JS',       color: '#ffffff' },
-                { icon: 'fa-brands fa-node-js',     label: 'Node.JS',       color: '#68A063' },
-                { icon: 'fa-brands fa-docker',      label: 'Docker',        color: '#2496ED' },
-                { icon: 'fa-brands fa-git-alt',     label: 'Git',           color: '#F05032' },
-                { icon: 'fa-brands fa-bootstrap',   label: 'Bootstrap',     color: '#7952B3' },
-                { icon: 'fa-solid fa-database',     label: 'MySQL',         color: '#4479A1' },
-                { icon: 'fa-solid fa-database',     label: 'PostgreSQL',    color: '#336791' },
+                { icon: 'fa-brands fa-wordpress', label: 'WordPress', color: '#21759B' },
+                { icon: 'fa-brands fa-html5', label: 'HTML5', color: '#E34F26' },
+                { icon: 'fa-brands fa-css3-alt', label: 'CSS3', color: '#1572B6' },
+                { icon: 'fa-brands fa-js', label: 'JavaScript', color: '#F7DF1E' },
+                { icon: 'fa-solid fa-code', label: 'TypeScript', color: '#3178C6' },
+                { icon: 'fa-brands fa-react', label: 'React', color: '#61DAFB' },
+                { icon: 'fa-solid fa-layer-group', label: 'Next.JS', color: '#ffffff' },
+                { icon: 'fa-brands fa-node-js', label: 'Node.JS', color: '#68A063' },
+                { icon: 'fa-brands fa-docker', label: 'Docker', color: '#2496ED' },
+                { icon: 'fa-brands fa-git-alt', label: 'Git', color: '#F05032' },
+                { icon: 'fa-brands fa-bootstrap', label: 'Bootstrap', color: '#7952B3' },
+                { icon: 'fa-solid fa-database', label: 'MySQL', color: '#4479A1' },
+                { icon: 'fa-solid fa-database', label: 'PostgreSQL', color: '#336791' },
               ],
             },
             {
               dir: 'right',
               skills: [
-                { icon: 'fa-brands fa-github',      label: 'GitHub',        color: '#ffffff' },
-                { icon: 'fa-solid fa-bolt',         label: 'Vite.JS',       color: '#646CFF' },
-                { icon: 'fa-brands fa-figma',       label: 'Figma',         color: '#F24E1E' },
-                { icon: 'fa-brands fa-linux',       label: 'Linux',         color: '#FCC624' },
-                { icon: 'fa-brands fa-microsoft',   label: 'VS Code',       color: '#007ACC' },
-                { icon: 'fa-solid fa-wind',         label: 'Tailwind CSS',  color: '#06B6D4' },
-                { icon: 'fa-solid fa-cube',         label: 'Prisma',        color: '#5a67d8' },
-                { icon: 'fa-solid fa-palette',      label: 'Material UI',   color: '#007FFF' },
-                { icon: 'fa-solid fa-vector-square',label: 'Framer',        color: '#0055FF' },
-                { icon: 'fa-solid fa-cloud-arrow-up', label: 'Vercel',      color: '#ffffff' },
-                { icon: 'fa-solid fa-cloud',        label: 'Netlify',       color: '#00C7B7' },
-                { icon: 'fa-solid fa-server',       label: 'Coolify',       color: '#6C47FF' },
-                { icon: 'fa-brands fa-font-awesome',label: 'FontAwesome',   color: '#528DD7' },
+                { icon: 'fa-brands fa-github', label: 'GitHub', color: '#ffffff' },
+                { icon: 'fa-solid fa-bolt', label: 'Vite.JS', color: '#646CFF' },
+                { icon: 'fa-brands fa-figma', label: 'Figma', color: '#F24E1E' },
+                { icon: 'fa-brands fa-linux', label: 'Linux', color: '#FCC624' },
+                { icon: 'fa-brands fa-microsoft', label: 'VS Code', color: '#007ACC' },
+                { icon: 'fa-solid fa-wind', label: 'Tailwind CSS', color: '#06B6D4' },
+                { icon: 'fa-solid fa-cube', label: 'Prisma', color: '#5a67d8' },
+                { icon: 'fa-solid fa-palette', label: 'Material UI', color: '#007FFF' },
+                { icon: 'fa-solid fa-vector-square', label: 'Framer', color: '#0055FF' },
+                { icon: 'fa-solid fa-cloud-arrow-up', label: 'Vercel', color: '#ffffff' },
+                { icon: 'fa-solid fa-cloud', label: 'Netlify', color: '#00C7B7' },
+                { icon: 'fa-solid fa-server', label: 'Coolify', color: '#6C47FF' },
+                { icon: 'fa-brands fa-font-awesome', label: 'FontAwesome', color: '#528DD7' },
               ],
             },
             {
               dir: 'left',
               skills: [
-                { icon: 'fa-solid fa-paper-plane',  label: 'Postman',       color: '#FF6C37' },
-                { icon: 'fa-brands fa-meta',        label: 'META',          color: '#0467DF' },
-                { icon: 'fa-solid fa-vector-square',  label: 'Framer Motion', color: '#BB22CC' },
-                { icon: 'fa-solid fa-fire',         label: 'Firebase',      color: '#FFCA28' },
-                { icon: 'fa-solid fa-leaf',         label: 'Supabase',      color: '#3ECF8E' },
-                { icon: 'fa-brands fa-stripe',      label: 'Stripe',        color: '#635BFF' },
-                { icon: 'fa-brands fa-aws',         label: 'AWS',           color: '#FF9900' },
-                { icon: 'fa-solid fa-credit-card',  label: 'PayFast',       color: '#1A82E2' },
-                { icon: 'fa-solid fa-hashtag',      label: 'C#',            color: '#239120' },
-                { icon: 'fa-solid fa-diagram-project', label: 'n8n',        color: '#EA4B71' },
-                { icon: 'fa-solid fa-briefcase',    label: 'Zoho',          color: '#E42527' },
-                { icon: 'fa-brands fa-microsoft',   label: 'MS Office',     color: '#D83B01' },
-                { icon: 'fa-brands fa-cloudflare',  label: 'CloudFlare',    color: '#F38020' },
+                { icon: 'fa-solid fa-paper-plane', label: 'Postman', color: '#FF6C37' },
+                { icon: 'fa-brands fa-meta', label: 'META', color: '#0467DF' },
+                { icon: 'fa-solid fa-vector-square', label: 'Framer Motion', color: '#BB22CC' },
+                { icon: 'fa-solid fa-fire', label: 'Firebase', color: '#FFCA28' },
+                { icon: 'fa-solid fa-leaf', label: 'Supabase', color: '#3ECF8E' },
+                { icon: 'fa-brands fa-stripe', label: 'Stripe', color: '#635BFF' },
+                { icon: 'fa-brands fa-aws', label: 'AWS', color: '#FF9900' },
+                { icon: 'fa-solid fa-credit-card', label: 'PayFast', color: '#1A82E2' },
+                { icon: 'fa-solid fa-hashtag', label: 'C#', color: '#239120' },
+                { icon: 'fa-solid fa-diagram-project', label: 'n8n', color: '#EA4B71' },
+                { icon: 'fa-solid fa-briefcase', label: 'Zoho', color: '#E42527' },
+                { icon: 'fa-brands fa-microsoft', label: 'MS Office', color: '#D83B01' },
+                { icon: 'fa-brands fa-cloudflare', label: 'CloudFlare', color: '#F38020' },
               ],
             },
           ].map((row, rowIdx) => (
             <div key={rowIdx} className={`skills-marquee-track skills-track-${row.dir}`}>
               {[...row.skills, ...row.skills].map((skill, i) => (
                 <span key={i} className="skill-pill">
-                  <i className={skill.icon} style={{color: skill.color}}></i>
+                  <i className={skill.icon} style={{ color: skill.color }}></i>
                   {skill.label}
                 </span>
               ))}
@@ -396,11 +397,11 @@ export default function Home() {
               <div className="journey-fill-glow" id="journeyGlow"></div>
             </div>
             {[
-              { year: '2022', icon: 'fa-solid fa-code',          title: 'The Curiosity Phase',      desc: 'Discovered the world of web development. Started with HTML, CSS, and JavaScript fundamentals. Built my first static websites and fell in love with creating things for the web.' },
-              { year: '2024', icon: 'fa-solid fa-graduation-cap', title: 'Engineering Foundation',   desc: 'Started ICS in Information Technology. Diving deep into data structures, algorithms, and software engineering principles. Building applications with C#, C and .NET Framework.' },
-              { year: '2025', icon: 'fa-solid fa-briefcase',      title: 'Agency Founder',           desc: 'Launched Axius Digital — a digital agency specializing in creating high-conversion, responsive websites for businesses.' },
-              { year: '2026', icon: 'fa-solid fa-robot',          title: 'Full-Stack Developer',     desc: 'Developed a strong foundation in full-stack development, mastering both frontend and backend technologies to build scalable and maintainable web applications.' },
-              { year: '2027', icon: 'fa-solid fa-rocket',         title: 'Scaling Vision',           desc: 'Aiming to Master Artificial Intelligence and its applications in web development.' },
+              { year: '2022', icon: 'fa-solid fa-code', title: 'The Curiosity Phase', desc: 'Discovered the world of web development. Started with HTML, CSS, and JavaScript fundamentals. Built my first static websites and fell in love with creating things for the web.' },
+              { year: '2024', icon: 'fa-solid fa-graduation-cap', title: 'Engineering Foundation', desc: 'Started ICS in Information Technology. Diving deep into data structures, algorithms, and software engineering principles. Building applications with C#, C and .NET Framework.' },
+              { year: '2025', icon: 'fa-solid fa-briefcase', title: 'Agency Founder', desc: 'Launched Axius Digital — a digital agency specializing in creating high-conversion, responsive websites for businesses.' },
+              { year: '2026', icon: 'fa-solid fa-robot', title: 'Full-Stack Developer', desc: 'Developed a strong foundation in full-stack development, mastering both frontend and backend technologies to build scalable and maintainable web applications.' },
+              { year: '2027', icon: 'fa-solid fa-rocket', title: 'Scaling Vision', desc: 'Aiming to Master Artificial Intelligence and its applications in web development.' },
             ].map((item, idx) => {
               const isLeft = idx % 2 === 0;
               return (
@@ -503,7 +504,7 @@ export default function Home() {
                     <div id="form-messages" className="error"></div>
                     <form className="tmp-dynamic-form" id="contact-form" method="POST" action="/" data-netlify="true" data-netlify-honeypot="bot-field" name="contact">
                       <input type="hidden" name="form-name" value="contact" />
-                      <input type="hidden" name="bot-field" style={{display:'none'}} />
+                      <input type="hidden" name="bot-field" style={{ display: 'none' }} />
                       <div className="contact-form-wrapper row">
                         <div className="col-lg-6">
                           <div className="form-group">
@@ -567,7 +568,7 @@ export default function Home() {
                     </a>
                   </div>
                   <p className="description mt--30">
-                    &copy; {new Date().getFullYear()}. All rights reserved by Tabeen Haider. 
+                    &copy; {new Date().getFullYear()}. All rights reserved by Tabeen Haider.
                   </p>
                 </div>
               </div>
@@ -659,7 +660,7 @@ export default function Home() {
           <svg viewBox="0 0 560 20" className="water_wave water_wave_front">
             <use href="#wave"></use>
           </svg>
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 20" style={{display: 'none'}}>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 20" style={{ display: 'none' }}>
             <symbol id="wave">
               <path d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z" fill="#fff"></path>
               <path d="M420,20c-21.5-0.4-38.8-2.5-51.1-4.5c-13.4-2.2-26.5-5.2-27.3-5.4C326,6.5,322,4.7,311.5,2.7C304.3,1.4,293.6-0.1,280,0c0,0,0,0,0,0v20H420z" fill="#fff"></path>
@@ -678,8 +679,8 @@ export default function Home() {
               <button className="demo-close-btn"><span><i className="fa-sharp fa-light fa-xmark"></i></span></button>
             </div>
             <div className="demo-top text-center">
-              <div style={{display:'flex', justifyContent:'center', marginBottom:'16px'}}>
-                <img src="/assets/images/logo/white-logo.png" alt="Logo" style={{width:'70px', height:'auto'}} />
+              <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '16px' }}>
+                <img src="/assets/images/logo/white-logo.png" alt="Logo" style={{ width: '70px', height: 'auto' }} />
               </div>
             </div>
             <ul className="popuptab-area nav nav-tabs" id="popuptab" role="tablist">
