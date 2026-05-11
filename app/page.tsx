@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import TypewriterText from "../components/TypewriterText";
 import PortfolioSection from "../components/PortfolioSection";
 
@@ -6,6 +8,14 @@ const cv = (vars: Record<string, string>) =>
   vars as unknown as React.CSSProperties;
 
 export default function Home() {
+  // 1. Add state to manage the mobile menu visibility
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // 2. Function to toggle the menu
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <>
       {/* ===== HEADER ===== */}
@@ -38,15 +48,17 @@ export default function Home() {
                 <div className="tmp-header-right">
                   <div className="social-share-wrapper d-none d-md-block">
                     <div className="social-link">
-
-
                       <a href="wa.me/923285765363"><i className="fa-brands fa-whatsapp"></i></a>
                       <a href="https://www.linkedin.com/in/tabeen-haider/"><i className="fa-brands fa-linkedin-in"></i></a>
                       <a href="https://www.facebook.com/profile.php?id=100083396250503"><i className="fa-brands fa-facebook-f"></i></a>
                     </div>
                   </div>
                   <div className="tmp-side-collups-area d-block d-xl-none">
-                    <button className="hamberger-menu humberger_menu_active">
+                    {/* 3. Add onClick handler to the hamburger button */}
+                    <button 
+                      className="hamberger-menu humberger_menu_active" 
+                      onClick={toggleMobileMenu}
+                    >
                       <i id="menuBtn" className="fa-light fa-bars humberger-menu"></i>
                     </button>
                   </div>
@@ -59,7 +71,8 @@ export default function Home() {
 
       {/* ===== MOBILE MENU ===== */}
       <div className="d-block d-xl-none">
-        <div className="tmp-popup-mobile-menu">
+        {/* 4. Dynamically append 'active' class based on state */}
+        <div className={`tmp-popup-mobile-menu ${isMobileMenuOpen ? "active" : ""}`}>
           <div className="inner">
             <div className="header-top">
               <div className="logo">
@@ -69,27 +82,32 @@ export default function Home() {
                 </a>
               </div>
               <div className="close-menu">
-                <button className="close-button tmp-round-action-btn">
+                {/* 5. Add onClick handler to close button */}
+                <button 
+                  className="close-button tmp-round-action-btn" 
+                  onClick={toggleMobileMenu}
+                >
                   <i className="fa-sharp fa-light fa-xmark"></i>
                 </button>
               </div>
             </div>
+            
+            {/* 6. Optional but recommended: Close menu when a link is clicked */}
             <ul className="tmp-mainmenu onepagenav-click">
-              <li><a className="smoth-animation" href="#home">Home</a></li>
-              <li><a className="smoth-animation" href="#about">About</a></li>
-              <li><a className="smoth-animation" href="#service">Services</a></li>
-              <li><a className="smoth-animation" href="#portfolio">Portfolio</a></li>
-              <li><a className="smoth-animation" href="#resume">Resume</a></li>
-              <li><a className="smoth-animation" href="#journey">Journey</a></li>
-              <li><a className="smoth-animation" href="#contacts">Contact</a></li>
+              <li><a className="smoth-animation" href="#home" onClick={toggleMobileMenu}>Home</a></li>
+              <li><a className="smoth-animation" href="#about" onClick={toggleMobileMenu}>About</a></li>
+              <li><a className="smoth-animation" href="#service" onClick={toggleMobileMenu}>Services</a></li>
+              <li><a className="smoth-animation" href="#portfolio" onClick={toggleMobileMenu}>Portfolio</a></li>
+              <li><a className="smoth-animation" href="#resume" onClick={toggleMobileMenu}>Resume</a></li>
+              <li><a className="smoth-animation" href="#journey" onClick={toggleMobileMenu}>Journey</a></li>
+              <li><a className="smoth-animation" href="#contacts" onClick={toggleMobileMenu}>Contact</a></li>
             </ul>
+            
             <div className="social-wrapper mt--40">
               <span className="subtitle">find me</span>
               <div className="social-link">
-
                 <a href="wa.me/923285765363"><i className="fa-brands fa-whatsapp"></i></a>
                 <a href="https://www.linkedin.com/in/tabeen-haider/"><i className="fa-brands fa-linkedin-in"></i></a>
-
                 <a href="https://www.facebook.com/profile.php?id=100083396250503"><i className="fa-brands fa-facebook-f"></i></a>
               </div>
             </div>
@@ -127,10 +145,10 @@ export default function Home() {
             {/* Right: person + designation */}
             <div className="col-lg-6 col-md-12">
               <div className="banner-main-demo-inner-content">
-                <img src="/assets/images/banner/user-compressed.png" alt="banner" className="main-demo z-index-99" />
+                <img src="/assets/images/banner/user-compressed-2.png" alt="banner" className="main-demo z-index-99" />
                 <div className="absolute-designation">
                   <h2 className="up float-anim">{'Web Developer'}</h2>
-                  <h2 className="down float-anim-slow">Designer</h2>
+                  <h2 className="down float-anim-slow">Designer &</h2>
                 </div>
               </div>
             </div>
