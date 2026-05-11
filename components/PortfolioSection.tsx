@@ -45,6 +45,14 @@ const TAB_ITEMS: Record<string, PfItem[]> = {
       order: 5,
       liveUrl: 'https://travelotms.com',
     },
+    {
+      img: 'Maxpower.jpg',
+      title: 'Max Power',
+      description: 'Redesigned and developed a high-performance solar company website using Next.js to ensure fast loading speeds and SEO-friendliness across all devices. Engineered an interactive load calculator tool that allows users to input appliance usage and receive personalized solar system recommendations—a powerful lead magnet for business growth. Deployed via Netlify for streamlined development workflow and premium lifetime-free hosting.',
+      tags: ['Next.js', 'Netlify'],
+      order: 6,
+      liveUrl: 'https://maxpowerpk.netlify.app',
+    },
   ],
   design: [
     {

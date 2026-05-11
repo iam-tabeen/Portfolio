@@ -473,7 +473,7 @@ export default function Home() {
                       <span className="ft-icon"><i className="fa-solid fa-envelope"></i></span>
                       <div className="ft-link-wrap">
                         <h4 className="link-title">E-mail:</h4>
-                        <a href="#">iamtabeen@gmail.com</a>
+                        <a href="#">contact@tabeenhaider.com</a>
                       </div>
                     </li>
                     <li className="tmp-scroll-trigger tmp-fade-in animation-order-2">
