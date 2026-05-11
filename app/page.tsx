@@ -38,9 +38,10 @@ export default function Home() {
                 <div className="tmp-header-right">
                   <div className="social-share-wrapper d-none d-md-block">
                     <div className="social-link">
-                      <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                      
+                      
+                      <a href="wa.me/923285765363"><i className="fa-brands fa-whatsapp"></i></a>
                       <a href="https://www.linkedin.com/in/tabeen-haider/"><i className="fa-brands fa-linkedin-in"></i></a>
-                      <a href="#"><i className="fa-brands fa-twitter"></i></a>
                       <a href="https://www.facebook.com/profile.php?id=100083396250503"><i className="fa-brands fa-facebook-f"></i></a>
                     </div>
                   </div>
@@ -125,7 +126,7 @@ export default function Home() {
             {/* Right: person + designation */}
             <div className="col-lg-6 col-md-12">
               <div className="banner-main-demo-inner-content">
-                <img src="/assets/images/banner/user-compressed.png" alt="banner" className="main-demo" />
+                <img src="/assets/images/banner/user-compressed.png" alt="banner" className="main-demo z-index-99" />
                 <div className="absolute-designation">
                   <h2 className="up float-anim">{'Web Developer'}</h2>
                   <h2 className="down float-anim-slow">Designer</h2>
@@ -396,10 +397,10 @@ export default function Home() {
             </div>
             {[
               { year: '2022', icon: 'fa-solid fa-code',          title: 'The Curiosity Phase',      desc: 'Discovered the world of web development. Started with HTML, CSS, and JavaScript fundamentals. Built my first static websites and fell in love with creating things for the web.' },
-              { year: '2024', icon: 'fa-solid fa-graduation-cap', title: 'Engineering Foundation',   desc: 'Started B.Tech in Information Technology. Diving deep into data structures, algorithms, and software engineering principles. Building full-stack applications with React, Node.js, and databases.' },
-              { year: '2025', icon: 'fa-solid fa-briefcase',      title: 'Product Builder',          desc: 'Launched ThinkVerse — a SaaS platform for structured idea management. Learned product development, user experience design, and the importance of shipping real products to real users.' },
-              { year: '2026', icon: 'fa-solid fa-robot',          title: 'AI Development',           desc: 'Currently building Devory, an AI-driven platform helping students showcase and manage their projects. Exploring machine learning, natural language processing, and intelligent automation.' },
-              { year: '2027', icon: 'fa-solid fa-rocket',         title: 'Scaling Vision',           desc: 'Aiming to master advanced AI/ML systems and production-grade engineering. Goal: Build technology that impacts millions and contribute to open-source communities.' },
+              { year: '2024', icon: 'fa-solid fa-graduation-cap', title: 'Engineering Foundation',   desc: 'Started ICS in Information Technology. Diving deep into data structures, algorithms, and software engineering principles. Building applications with C#, C and .NET Framework.' },
+              { year: '2025', icon: 'fa-solid fa-briefcase',      title: 'Agency Founder',           desc: 'Launched Axius Digital — a digital agency specializing in creating high-conversion, responsive websites for businesses.' },
+              { year: '2026', icon: 'fa-solid fa-robot',          title: 'Full-Stack Developer',     desc: 'Developed a strong foundation in full-stack development, mastering both frontend and backend technologies to build scalable and maintainable web applications.' },
+              { year: '2027', icon: 'fa-solid fa-rocket',         title: 'Scaling Vision',           desc: 'Aiming to Master Artificial Intelligence and its applications in web development.' },
             ].map((item, idx) => {
               const isLeft = idx % 2 === 0;
               return (
@@ -466,14 +467,14 @@ export default function Home() {
               <div className="col-lg-5">
                 <div className="contact-inner">
                   <div className="section-head section-head-one-side text-align-left tmp-scroll-trigger tmp-fade-in animation-order-1">
-                    <span className="title-left">Get Ready To Create Great</span>
+                    <span className="title-left Get-Ready-Title">Get Ready To Create Great</span>
                   </div>
                   <ul className="ft-link v2">
                     <li className="tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation">
                       <span className="ft-icon"><i className="fa-solid fa-envelope"></i></span>
                       <div className="ft-link-wrap">
                         <h4 className="link-title">E-mail:</h4>
-                        <a href="#">contact@tabeenhaider.com</a>
+                        <a href="mailto:contact@tabeenhaider.com">contact@tabeenhaider.com</a>
                       </div>
                     </li>
                     <li className="tmp-scroll-trigger tmp-fade-in animation-order-2">
@@ -484,10 +485,10 @@ export default function Home() {
                       </div>
                     </li>
                     <li className="tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation">
-                      <span className="ft-icon"><i className="fa-solid fa-location-dot"></i></span>
+                      <span className="ft-icon"><i className="fa-brands fa-whatsapp"></i></span>
                       <div className="ft-link-wrap">
                         <h4 className="link-title">Contact:</h4>
-                        <a href="#">+92 328 5765363</a>
+                        <a href="wa.me/923285765363">+92 328 5765363</a>
                       </div>
                     </li>
                   </ul>

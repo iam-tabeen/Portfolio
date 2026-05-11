@@ -24,6 +24,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/vendor/animate.min.css" />
         <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/custom-mobile.css" />
       </head>
       <body
         className="spybody"

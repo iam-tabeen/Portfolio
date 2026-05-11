@@ -1,0 +1,39 @@
+/* Custom mobile adjustment for banner designation text */
+@media only screen and (max-width: 767px) {
+  .banner-main-demo-inner-content .absolute-designation {
+    top: 840px !important;
+    bottom: auto !important;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+  }
+  .banner-main-demo-inner-content .absolute-designation h2.up {
+    margin-top: 8rem;
+  }
+  .banner-main-demo-inner-content .absolute-designation h2.down {
+    margin-top: 2rem;
+  }
+
+  .about-section-watermark{
+    font-size: 290%;
+  }
+  .Get-Ready-Title{
+    margin-top: 50px !important;
+  }
+  .contact-inner{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+  }
+  .section-head-one-side{
+    padding-top: 40px;
+  }
+  .skills-marquee-wrapper{
+    width: 100%;
+  }
+}
